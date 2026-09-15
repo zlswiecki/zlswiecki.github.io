@@ -1,0 +1,423 @@
+/*-- scss:defaults --*/
+
+// ---- Palette -------------------------------------------------------------
+$ink:        #1b1b1e !default;
+$muted:      #5c6066 !default;
+$accent:     #8f2d2d !default;
+$accent-dk:  #6f2323 !default;
+$paper:      #fcfbf9 !default;
+$rule:       #e4e0d9 !default;
+$panel:      #f5f2ed !default;
+
+$body-bg:    $paper !default;
+$body-color: $ink !default;
+$link-color: $accent !default;
+$border-color: $rule !default;
+
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+$font-family-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+$font-size-root: 17px;
+$line-height-base: 1.65;
+
+$headings-font-family: $font-family-serif;
+$headings-font-weight: 600;
+
+$navbar-bg: $paper !default;
+$navbar-fg: $ink !default;
+$navbar-hl: $accent !default;
+
+$toc-color: $muted !default;
+
+/*-- scss:rules --*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap");
+
+body {
+  font-family: $font-family-sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+// ---- Navbar --------------------------------------------------------------
+.navbar {
+  border-bottom: 1px solid $rule;
+  padding-top: .4rem;
+  padding-bottom: .4rem;
+}
+
+.navbar-brand {
+  font-family: $font-family-serif;
+  font-weight: 600;
+  font-size: 1.15rem;
+  letter-spacing: .01em;
+}
+
+.navbar .nav-link {
+  font-size: .94rem;
+  letter-spacing: .01em;
+}
+
+.navbar .nav-link.active {
+  font-weight: 600;
+  color: $accent !important;
+}
+
+// ---- Typography ----------------------------------------------------------
+h1, h2, h3, h4 {
+  font-family: $font-family-serif;
+  letter-spacing: -0.005em;
+}
+
+h1.title {
+  font-size: 2.1rem;
+  margin-bottom: .25rem;
+}
+
+h2 {
+  font-size: 1.42rem;
+  margin-top: 2.6rem;
+  margin-bottom: .7rem;
+  padding-bottom: .35rem;
+  border-bottom: 1px solid $rule;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-top: 1.8rem;
+  margin-bottom: .5rem;
+  font-weight: 600;
+}
+
+p { margin-bottom: 1.05rem; }
+
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+a:hover { color: $accent-dk; }
+
+main { padding-bottom: 4rem; }
+
+// ---- Hero ----------------------------------------------------------------
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  gap: 2.4rem;
+  align-items: start;
+  margin-top: .5rem;
+  margin-bottom: 2.2rem;
+}
+
+.hero-name {
+  font-family: $font-family-serif;
+  font-size: 2.35rem;
+  font-weight: 700;
+  line-height: 1.12;
+  margin: 0 0 .3rem 0;
+  letter-spacing: -0.015em;
+}
+
+.hero-role {
+  font-size: .97rem;
+  color: $muted;
+  margin-bottom: 1.15rem;
+  line-height: 1.5;
+}
+
+.hero-role strong { color: $ink; font-weight: 600; }
+
+.hero-lede {
+  font-family: $font-family-serif;
+  font-size: 1.16rem;
+  line-height: 1.55;
+  margin-bottom: 1.2rem;
+}
+
+.hero-photo img {
+  width: 100%;
+  border-radius: 3px;
+  display: block;
+  filter: grayscale(12%);
+}
+
+.photo-placeholder {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  background: $panel;
+  border: 1px solid $rule;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: .76rem;
+  color: $muted;
+  padding: 1rem;
+  line-height: 1.4;
+}
+
+// ---- Link row ------------------------------------------------------------
+.linkrow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+  margin-bottom: .5rem;
+}
+
+.linkrow a {
+  display: inline-block;
+  font-size: .83rem;
+  padding: .28rem .7rem;
+  border: 1px solid $rule;
+  border-radius: 2px;
+  color: $muted;
+  text-decoration: none;
+  background: transparent;
+  transition: all .12s ease;
+}
+
+.linkrow a:hover {
+  border-color: $accent;
+  color: $accent;
+  background: rgba(143, 45, 45, .04);
+}
+
+// ---- Callout / note panel -------------------------------------------------
+.panel {
+  background: $panel;
+  border-left: 2px solid $accent;
+  padding: 1rem 1.2rem;
+  margin: 1.6rem 0;
+  font-size: .95rem;
+}
+
+.panel p:last-child { margin-bottom: 0; }
+
+// ---- Research strand -------------------------------------------------------
+.strand {
+  margin-bottom: 2.4rem;
+}
+
+.strand-label {
+  font-size: .73rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: $accent;
+  font-weight: 600;
+  margin-bottom: .2rem;
+}
+
+// ---- Chain diagram ---------------------------------------------------------
+.chain {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: .4rem;
+  margin: 1.8rem 0 2.2rem 0;
+}
+
+.chain-step {
+  flex: 1 1 0;
+  min-width: 118px;
+  background: $panel;
+  border: 1px solid $rule;
+  border-radius: 2px;
+  padding: .7rem .75rem;
+}
+
+.chain-step .n {
+  font-size: .68rem;
+  letter-spacing: .1em;
+  color: $accent;
+  font-weight: 600;
+  display: block;
+  margin-bottom: .2rem;
+}
+
+.chain-step .t {
+  font-family: $font-family-serif;
+  font-weight: 600;
+  font-size: .95rem;
+  display: block;
+  line-height: 1.25;
+  margin-bottom: .25rem;
+}
+
+.chain-step .d {
+  display: block;
+  font-size: .78rem;
+  color: $muted;
+  line-height: 1.4;
+}
+
+// ---- Publications ----------------------------------------------------------
+.pub-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .8rem;
+  align-items: center;
+  margin: 1.4rem 0 1.6rem 0;
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid $rule;
+}
+
+#pub-search {
+  flex: 1 1 220px;
+  font-size: .9rem;
+  padding: .42rem .7rem;
+  border: 1px solid $rule;
+  border-radius: 2px;
+  background: #fff;
+  color: $ink;
+  font-family: $font-family-sans-serif;
+}
+
+#pub-search:focus {
+  outline: none;
+  border-color: $accent;
+}
+
+.pub-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+}
+
+.pub-filters button {
+  font-size: .81rem;
+  padding: .32rem .7rem;
+  border: 1px solid $rule;
+  background: transparent;
+  color: $muted;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: $font-family-sans-serif;
+  transition: all .12s ease;
+}
+
+.pub-filters button:hover { border-color: $accent; color: $accent; }
+
+.pub-filters button.active {
+  background: $accent;
+  border-color: $accent;
+  color: #fff;
+}
+
+.pub-count {
+  font-size: .82rem;
+  color: $muted;
+  margin-bottom: 1.2rem;
+}
+
+.pub-year {
+  font-family: $font-family-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: $ink;
+  margin: 2rem 0 .8rem 0;
+  padding-bottom: .3rem;
+  border-bottom: 1px solid $rule;
+}
+
+.pub {
+  margin-bottom: 1.15rem;
+  padding-left: .9rem;
+  border-left: 2px solid transparent;
+  transition: border-color .12s ease;
+}
+
+.pub:hover { border-left-color: $rule; }
+
+.pub-title {
+  font-family: $font-family-serif;
+  font-size: 1.02rem;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: .18rem;
+}
+
+.pub-authors {
+  font-size: .87rem;
+  color: $muted;
+  line-height: 1.45;
+  margin-bottom: .1rem;
+}
+
+.pub-authors .me { color: $ink; font-weight: 600; }
+
+.pub-venue {
+  font-size: .87rem;
+  color: $muted;
+  font-style: italic;
+  margin-bottom: .25rem;
+}
+
+.pub-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+  align-items: center;
+}
+
+.pub-meta a {
+  font-size: .76rem;
+  padding: .14rem .5rem;
+  border: 1px solid $rule;
+  border-radius: 2px;
+  color: $muted;
+  text-decoration: none;
+}
+
+.pub-meta a:hover { border-color: $accent; color: $accent; }
+
+.award {
+  font-size: .73rem;
+  background: rgba(143, 45, 45, .08);
+  color: $accent;
+  padding: .16rem .5rem;
+  border-radius: 2px;
+  font-weight: 500;
+  letter-spacing: .01em;
+}
+
+// ---- Simple record lists (teaching, grants) --------------------------------
+.record {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 1rem;
+  padding: .55rem 0;
+  border-bottom: 1px solid $rule;
+  font-size: .93rem;
+}
+
+.record:last-child { border-bottom: none; }
+
+.record p { margin-bottom: 0; }
+
+.record-when {
+  color: $muted;
+  font-size: .85rem;
+  font-variant-numeric: tabular-nums;
+  padding-top: .1rem;
+}
+
+.record-what strong { font-weight: 600; }
+
+.record-where {
+  color: $muted;
+  font-size: .85rem;
+  display: block;
+  margin-top: .1rem;
+}
+
+// ---- Responsive ------------------------------------------------------------
+@media (max-width: 700px) {
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 1.4rem;
+  }
+  .hero-photo { max-width: 170px; }
+  .hero-name { font-size: 1.95rem; }
+  .record { grid-template-columns: 1fr; gap: .15rem; }
+  .chain-step { min-width: 100%; }
+}

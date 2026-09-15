@@ -1,0 +1,112 @@
+---
+title: "Publications"
+pagetitle: "Publications — Zachari Swiecki"
+description-meta: "Peer-reviewed journal articles, book chapters, conference proceedings and software by Zachari Swiecki."
+listing:
+  - id: pubs
+    contents: publications.yml
+    template: _pubs.ejs
+    sort: "year desc"
+    page-size: 200
+---
+
+Also on [Google Scholar](https://scholar.google.com.au/citations?hl=en&user=HSdHD5UAAAAJ)
+and [ORCID](https://orcid.org/0000-0002-7414-5507).
+
+:::: {.pub-controls}
+<input type="search" id="pub-search" placeholder="Search titles, authors, venues…" aria-label="Search publications">
+
+::: {.pub-filters}
+<button class="active" data-filter="all">All</button>
+<button data-filter="journal">Journal</button>
+<button data-filter="chapter">Chapters</button>
+<button data-filter="conference">Conference</button>
+<button data-filter="software">Software</button>
+:::
+::::
+
+::: {.pub-count}
+<span id="pub-count"></span>
+:::
+
+::: {#pubs}
+:::
+
+```{=html}
+<script>
+(function () {
+  const ready = (fn) =>
+    document.readyState !== "loading"
+      ? fn()
+      : document.addEventListener("DOMContentLoaded", fn);
+
+  ready(function () {
+    const list = document.getElementById("pub-list");
+    if (!list) return;
+
+    const search  = document.getElementById("pub-search");
+    const buttons = document.querySelectorAll(".pub-filters button");
+    const counter = document.getElementById("pub-count");
+    const pubs    = Array.from(list.querySelectorAll(".pub"));
+
+    // Emphasise Zach's name in each author string.
+    list.querySelectorAll(".pub-authors").forEach((el) => {
+      el.innerHTML = el.textContent.replace(
+        /Swiecki, Z\./g,
+        '<span class="me">Swiecki, Z.</span>'
+      );
+    });
+    const heads   = Array.from(list.querySelectorAll(".pub-year"));
+    const nodes   = Array.from(list.children);
+
+    let activeType = "all";
+
+    function apply() {
+      const q = (search.value || "").trim().toLowerCase();
+      let shown = 0;
+
+      pubs.forEach((p) => {
+        const okType = activeType === "all" || p.dataset.type === activeType;
+        const okText = !q || (p.dataset.search || "").includes(q);
+        const visible = okType && okText;
+        p.hidden = !visible;
+        if (visible) shown++;
+      });
+
+      // Hide a year heading when nothing under it survived the filter.
+      heads.forEach((h) => {
+        let n = nodes.indexOf(h) + 1;
+        let any = false;
+        while (n < nodes.length && !nodes[n].classList.contains("pub-year")) {
+          if (!nodes[n].hidden) { any = true; break; }
+          n++;
+        }
+        h.hidden = !any;
+      });
+
+      counter.textContent =
+        shown + (shown === 1 ? " publication" : " publications");
+    }
+
+    search.addEventListener("input", apply);
+
+    buttons.forEach((b) => {
+      b.addEventListener("click", () => {
+        buttons.forEach((x) => x.classList.remove("active"));
+        b.classList.add("active");
+        activeType = b.dataset.filter;
+        apply();
+      });
+    });
+
+    apply();
+  });
+})();
+</script>
+```
+
+::: {.panel}
+The doctoral dissertation, *Modeling interdependence in collaborative
+problem-solving* (University of Wisconsin–Madison, 2020), is listed under 2020.
+Invited talks, workshops and poster presentations are in the [CV](cv.qmd).
+:::

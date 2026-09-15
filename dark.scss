@@ -1,0 +1,32 @@
+/*-- scss:defaults --*/
+
+$ink:        #e8e6e1;
+$muted:      #9a9690;
+$accent:     #d98a8a;
+$accent-dk:  #eaa6a6;
+$paper:      #16171a;
+$rule:       #2e3035;
+$panel:      #1e2024;
+
+$body-bg:    $paper;
+$body-color: $ink;
+$link-color: $accent;
+$border-color: $rule;
+
+$navbar-bg: $paper;
+$navbar-fg: $ink;
+$navbar-hl: $accent;
+
+/*-- scss:rules --*/
+
+#pub-search {
+  background: $panel;
+  border-color: $rule;
+  color: $ink;
+}
+
+.linkrow a:hover { background: rgba(217, 138, 138, .07); }
+
+.award { background: rgba(217, 138, 138, .12); }
+
+.hero-photo img { filter: grayscale(12%) brightness(.92); }

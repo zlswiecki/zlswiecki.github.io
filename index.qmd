@@ -1,0 +1,103 @@
+---
+title: ""
+pagetitle: "Zachari Swiecki"
+description-meta: "Learning scientist at Monash University working on how we measure learning when people work with tools — process data, network models, and the assessment of AI-assisted work."
+---
+
+::::: {.hero}
+:::: {.hero-text}
+
+::: {.hero-name}
+Zachari Swiecki
+:::
+
+::: {.hero-role}
+**Senior Lecturer**, Faculty of Information Technology, Monash University<br>
+ARC Discovery Early Career Research Award Fellow
+:::
+
+::: {.hero-lede}
+Learning has always been mediated by and distributed across people and their
+environment. Assessment, however, asks us to say something about *people*. My
+work is about how we bridge that gap — how activity that is shared with others
+and with tools can still license a defensible claim about an individual.
+:::
+
+::: {.linkrow}
+[Email](mailto:zach.swiecki@monash.edu)
+[Google Scholar](https://scholar.google.com.au/citations?hl=en&user=HSdHD5UAAAAJ)
+[ORCID](https://orcid.org/0000-0002-7414-5507)
+[Monash profile](https://research.monash.edu/en/persons/zachari-swiecki)
+[CV](cv.qmd)
+:::
+
+::::
+
+:::: {.hero-photo}
+<!-- When you have a headshot, replace this whole block with: ![](assets/photo.jpg) -->
+::: {.photo-placeholder}
+Add `assets/photo.jpg`<br>(roughly 4:5, 600px wide)
+:::
+::::
+:::::
+
+## What I work on
+
+A final product conceals the process that produced it. When a person works with
+a tool, that product may no longer support a claim about what *they* know or can
+do. Generative AI did not create this problem, but it has made it impossible to
+ignore.
+
+I treat the assessment of AI-assisted activity as a problem of **measurement
+rather than integrity**. What we want to measure is learning. What we have to
+account for is *interdependence* — the structure that arises as people and tools
+respond to and build on one another's contributions. Accounting for it is what
+allows evidence of joint activity to say something about individuals.
+
+That commitment runs through a chain of inference, and my work contributes a
+method and an instrument at each link:
+
+:::: {.chain}
+::: {.chain-step}
+[01]{.n}[Observe]{.t}[The *Trace* platform captures writing activity across the tools people actually use.]{.d}
+:::
+::: {.chain-step}
+[02]{.n}[Code]{.t}[Theory-driven LLM classifiers, with validation procedures built for stochastic coders.]{.d}
+:::
+::: {.chain-step}
+[03]{.n}[Model]{.t}[Epistemic and ordered network analysis, extended with graph neural networks.]{.d}
+:::
+::: {.chain-step}
+[04]{.n}[Claim]{.t}[What distinguishes stronger work is not *that* people use AI but *how* they question it.]{.d}
+:::
+::: {.chain-step}
+[05]{.n}[Represent]{.t}[*Trace: Replay* renders a writing session so learners and educators can read it.]{.d}
+:::
+::::
+
+[Read more about the research &rarr;](research.qmd)
+
+## Currently
+
+- Leading an **ARC Discovery Project** on authentic assessment for the age of
+  generative AI, and holding an **ARC DECRA** on assessments for writing with
+  generative AI.
+- Taking the browser-extension version of *Trace* out of closed beta and into
+  in-the-wild studies of writing.
+- Building and validating LLM-based classifiers for AI-assisted writing —
+  structured code refinement, hold-out testing against human coders, and
+  stability testing across repeated classification.
+- Supervising doctoral students working on discourse classification, simulation
+  of collaborative discourse, and the ethics of trace data in AI-assisted
+  writing.
+
+## Background
+
+I completed my PhD in Educational Psychology at the University of
+Wisconsin–Madison in 2020, working in the Epistemic Analytics Lab, after a BS in
+Physics and Mathematics at the University of Alabama. I have been at Monash
+since 2020, and a Senior Lecturer since 2024.
+
+I serve on the editorial board of the *International Journal of
+Computer-Supported Collaborative Learning*, was program co-chair of ICQE24, and
+co-chair the Poster and Demo track for LAK26.

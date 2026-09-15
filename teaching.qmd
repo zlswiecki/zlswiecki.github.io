@@ -1,0 +1,125 @@
+---
+title: "Teaching"
+pagetitle: "Teaching — Zachari Swiecki"
+description-meta: "Teaching and doctoral supervision in research methods, statistical modelling, and learning analytics at Monash University."
+---
+
+Apprenticeship works because the work is visible. Methodological judgment is not.
+Most of what makes a good analytic decision — why this coding scheme, why this
+window, why this model and not that one — happens where students cannot see it,
+and so my teaching is largely about externalising it: working through real
+decisions in front of students, on real data, including the ones I get wrong.
+
+The same principle generates how I assess. You cannot coach reasoning you cannot
+observe. So rather than asking only for the product, I ask for the evidence that
+teaching needed anyway — the process that produced it.
+
+## Teaching with and about AI
+
+In my honours research-methods unit, students meet the AI tools that now mediate
+the research process early — ChatGPT, Claude, Scopus AI, NotebookLM, Perplexity.
+We model appropriate use in class and then analyse the tools critically, as
+instruments with particular affordances and constraints.
+
+Students may use GenAI on assignments provided they **declare, describe and
+reflect** on that use, and assessed products are supplemented with in-class
+demonstrations of ownership — pitches, discussions, presentations. Student
+frustration at documenting their AI use, and my own frustration reading loosely
+structured records of it, was part of what prompted the *Trace* browser
+extension.
+
+## Courses
+
+:::: {.record}
+[2024–2026]{.record-when}
+
+::: {.record-what}
+**Research Methods in Data Science** — Chief Examiner & Lecturer
+[Honours-level; students write a research proposal on a problem of their own choosing]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2025]{.record-when}
+
+::: {.record-what}
+**Statistical Data Modelling** — Unit Coordinator, Chief Examiner & Lecturer
+[Master's level, ~300 students; also Chief Examiner of the online offering]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2022–2024]{.record-when}
+
+::: {.record-what}
+**Educational Theories and Processes in Learning Analytics** — Unit Designer & Chief Examiner
+[Master's level, fully online and asynchronous; designed from scratch]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2024]{.record-when}
+
+::: {.record-what}
+**Statistical Modelling for Data Science** — Lecturer
+[Undergraduate]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2024–2025]{.record-when}
+
+::: {.record-what}
+**IT Professional Practice** — Lecturer
+[First-year undergraduate, ~800 students; coordinating a team of lecturers and tutors]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2021–2023]{.record-when}
+
+::: {.record-what}
+**Applied Data Science: Data Challenges 1 & 4**, **Introduction to Data Science** — Lecturer
+[Undergraduate; programming, machine learning, introductory deep learning]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2016–2019]{.record-when}
+
+::: {.record-what}
+**Human Abilities and Learning** — Instructor and Teaching Assistant
+[University of Wisconsin–Madison; guest lectures in Current Topics in the Learning Sciences and Research Experience in Educational Psychology]{.record-where}
+:::
+
+::::
+
+## Supervision
+
+I am currently primary supervisor for two doctoral students finishing in late
+2026 and early 2027, with three more starting across 2026–27. I have also
+supervised a master's thesis and undergraduate research projects.
+
+The structure is deliberately layered: weekly one-on-one meetings with primary
+supervisees, weekly project-team meetings, and monthly lab meetings that mix new
+and foundational topics, works in progress, and time that is simply social.
+Students own their projects and mentor more junior students — which is how the
+practice gets passed on rather than merely described.
+
+## Methods workshops
+
+For the last six years I have run methods workshops for doctoral and early-career
+researchers, most regularly **Advanced ENA and rENA** at the International
+Conference on Quantitative Ethnography (2019–2025), along with workshops on
+multimodal approaches to collaboration at ISLS, and on developing and validating
+automated discourse codes with `ncodeR` at CSCL and LSGS.
+
+I have also taught **Quantitative Ethnography masterclasses** at Senshu and Osaka
+Universities (Japan), National Yang Ming Chiao Tung and National Central
+Universities (Taiwan), and Seoul National University (South Korea).

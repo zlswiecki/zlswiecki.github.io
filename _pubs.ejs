@@ -1,0 +1,22 @@
+<%
+let lastYear = null;
+const clean = (s) => String(s == null ? '' : s).replace(/"/g, '').toLowerCase();
+%>
+<div class="list pub-list" id="pub-list">
+<% for (const item of items) { %>
+<% if (item.year !== lastYear) { lastYear = item.year; %>
+<div class="pub-year" data-yearhead="<%= item.year %>"><%= item.year %></div>
+<% } %>
+<div class="pub" data-type="<%= item.type %>" data-year="<%= item.year %>" data-search="<%= clean(item.title) + ' ' + clean(item.author) + ' ' + clean(item.venue) %>">
+<div class="pub-title"><%= item.title %></div>
+<div class="pub-authors"><%= item.author %></div>
+<div class="pub-venue"><%= item.venue %></div>
+<% if (item.url || item.award) { %>
+<div class="pub-meta">
+<% if (item.award) { %><span class="award"><%= item.award %></span><% } %>
+<% if (item.url) { %><a href="<%= item.url %>" target="_blank" rel="noopener">View&nbsp;&rarr;</a><% } %>
+</div>
+<% } %>
+</div>
+<% } %>
+</div>

@@ -1,0 +1,59 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+  resources:
+    - CNAME
+    - assets/
+
+website:
+  title: "Zachari Swiecki"
+  description: "Learning scientist working on the measurement of learning in human–AI activity."
+  site-url: https://zachariswiecki.com
+  favicon: assets/favicon.png
+  open-graph: true
+  twitter-card: true
+  navbar:
+    pinned: false
+    left:
+      - href: index.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: envelope
+        href: mailto:zach.swiecki@monash.edu
+        aria-label: Email
+      - icon: mortarboard-fill
+        href: https://scholar.google.com.au/citations?hl=en&user=HSdHD5UAAAAJ
+        aria-label: Google Scholar
+  page-footer:
+    border: false
+    left: |
+      &copy; 2026 Zachari Swiecki
+    right: |
+      Built with [Quarto](https://quarto.org)
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+      dark: [cosmo, styles.scss, dark.scss]
+    toc: false
+    anchor-sections: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    grid:
+      body-width: 860px
+      sidebar-width: 200px
+      margin-width: 200px
+
+execute:
+  freeze: auto

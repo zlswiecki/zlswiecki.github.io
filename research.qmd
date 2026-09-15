@@ -1,0 +1,276 @@
+---
+title: "Research"
+pagetitle: "Research — Zachari Swiecki"
+description-meta: "A research program on measuring learning in human–AI activity: capturing process data, coding it with validated LLM classifiers, modelling interdependence with network methods, and representing it so people can act on it."
+---
+
+People have always worked with tools, and those tools have always changed. What
+has not changed is the need to say something about a person on the basis of
+evidence they did not produce alone.
+
+My program approaches that problem through the chain of inference implied by
+**evidence-centered design** — observing activity, recording it as data, coding
+and modelling that data, and warranting claims about learning. Theory guides each
+link: what I observe, what I record and code, how I model, and what claims are
+worth making. Below, each section is a link in that chain and the work that
+contributes to it.
+
+::: {.panel}
+**The core commitment.** What we want to measure is learning. What we must
+account for is *interdependence* — the structure that arises as people and tools
+respond to and build on one another's contributions. Interdependence is not the
+measurand; it is what has to be accounted for so that evidence of joint activity
+can license claims about individuals.
+:::
+
+## Observing interaction: the Trace platform
+
+::: {.strand}
+[01 — Observe]{.strand-label}
+
+Accounting for interdependence requires a reliable way to capture interaction in
+the first place. *Trace* is a learning analytics platform that records the
+actions and interactions of human writers and GenAI tools during writing
+activity. It exists in two versions.
+
+The **web platform** is typical of learning analytics work: students read sources
+in a PDF viewer, write in a text editor, and talk to a GenAI tool in a contained
+chat window. It logs source views, keystrokes, prompts and responses, and
+copy/paste events. It has supported a single-session study with roughly 250
+students in a large master's research methods class, and a six-week longitudinal
+study with a cohort of master's students in law. It is currently in use by a
+research team I am not part of, studying how students respond to feedback on
+writing they are permitted to produce with AI.
+
+Capturing the same activity without an instrument of this kind means screen
+recording and hand-coding video — across hundreds of sessions, or dozens of hours
+per participant.
+
+The **browser extension**, built on outputs from my DARPA-funded knowledge
+management work and funded by the ARC, widens the horizon of observation to more
+authentic activity. It collects the same data, but distributes collection across
+the tools learners already use — Google Docs, Overleaf, GenAI chat interfaces —
+rather than tools specified by researchers. It is in closed beta in preparation
+for in-the-wild studies.
+:::
+
+## Coding interaction: LLM-based classifiers
+
+::: {.strand}
+[02 — Code]{.strand-label}
+
+Data on its own is not understanding. We need ways to identify and interpret the
+relevant pieces of it. The coding schemes I develop combine top-down,
+theory-driven work with bottom-up, data-driven work.
+
+An example of why that combination matters: my colleagues and I are building a
+multimodal scheme for categorising interactions between students and GenAI during
+writing, drawing on cognitive and sociocultural theories of writing and on
+emerging work on AI literacy. Both literatures warrant a code for *verifying
+sources*. Across the sessions we have analysed, that code has almost no
+instances — and it stays in the scheme. A scheme induced from the data alone
+would never have shown that the behaviour was missing.
+
+Coding with LLMs introduces a validity problem earlier methods do not face.
+Classifications are stochastic, sensitive to prompt design, and indexed to a
+particular generation of models, so agreement established once does not stay
+established. My current work extends codebook-to-classifier approaches with
+additional validation: structured refinement of code definitions, hold-out
+testing against human coding, and stability testing across repeated
+classification. The aim is classifiers whose outputs can be checked, so the
+claims built on them are warranted rather than assumed.
+:::
+
+## Modelling interdependence: networks and simulation
+
+::: {.strand}
+[03 — Model]{.strand-label}
+
+Relationships among codes are explored through models. Traditional approaches
+either isolate individual actions or treat the system as an undifferentiated
+whole. The argument I made in my dissertation — that interdependence among coded
+actions reveals differences aggregate accounts cannot — has organised my work
+since, and has held in settings I could not have anticipated at the time,
+including human–AI interaction.
+
+**Epistemic network analysis** (ENA) and **ordered network analysis** (ONA) have
+been my principal instruments for that argument. I am a co-author of
+[`rENA`](https://cran.r-project.org/package=rENA) and
+[`ncodeR`](https://cran.r-project.org/package=ncodeR), and of the mathematical
+foundations of the method. Recent extensions combine these models with social
+network analysis and **graph neural networks**, so that social and cognitive
+interdependence can be modelled together. Much of the technical capability
+already existed; what it lacked was a framing that treated these structures as
+interdependence. GNNs can represent them, but the dimensions they yield are hard
+to interpret — ENA's visualisations give a way of reading those dimensions in
+terms of relationships among actors and codes, so gains in representational power
+do not cost the ability to say what the model found.
+
+Models of interdependence are new enough that we know little about how they
+behave. I approach this through **method-facing simulation**: generating coded
+traces with known structure, then evaluating what analytic pipelines recover from
+them. With colleagues and students I extended a stochastic generator of coded
+discourse to vary the degree of sequential ordering, and compared what ENA and
+ONA recover across that range. The two diverge at low levels of ordering.
+Disagreement between them is therefore *diagnostic* — it sends the researcher
+back to the data with a specific question about ordering, and removes the option
+of not asking it.
+:::
+
+## Making claims: writing with generative AI
+
+::: {.strand}
+[04 — Claim]{.strand-label}
+
+With appropriate data, coding schemes, and models, my students, colleagues and I
+have begun to make specific claims about writing with GenAI. Taken together, the
+work suggests that writing with GenAI is in itself neither good nor bad — what
+matters is *how* people write with it.
+
+In a study led by my doctoral student, we compared the questions university
+writers asked a GenAI tool with those they asked a human tutor while revising a
+multi-source essay. Writers working with GenAI asked more questions in shorter
+exchanges, and asked them pragmatically — direct questions about conceptual and
+procedural knowledge, rather than the indirect requests for feedback that
+characterised the tutor condition.
+
+The effect of condition on revised essay quality was **mediated by the structure
+of that questioning**. With the interdependence among question types in the
+model, access to the tool no longer explained performance. A frequency-based
+composite over the same codes detected no such mediation. What distinguished
+stronger revisions was not that writers used GenAI, but how they questioned it —
+a difference the revised essays themselves could not reveal.
+
+Related work uses the same models to distinguish knowledge telling from knowledge
+transformation during AI-assisted writing, and to separate genres by interaction
+structure alone.
+:::
+
+## Representing activity: Trace Replay
+
+::: {.strand}
+[05 — Represent]{.strand-label}
+
+Making claims from process data requires a link most assessment work leaves
+implicit. Data, codes and models are not evidence anyone can act on until they
+are represented in a form a person can read. That was tenable when a reader could
+reconstruct the activity behind the evidence themselves. With human–AI
+interaction, they cannot.
+
+Through co-design with learners and educators, I have developed *Trace: Replay*,
+which represents GenAI-assisted writing at three levels:
+
+- **Micro** — replays interaction data in semantically and theoretically
+  meaningful segments.
+- **Meso** — renders those segments as process-level representations using
+  simplified network models.
+- **Macro** — aggregates across a session, for instance the distribution of
+  activity between writer and tool.
+
+The levels are designed to be traversed, so a macro pattern can be interrogated
+at the meso level and checked against the record at the micro level. The next
+study asks whether learners can use these representations to assemble evidence of
+their own process, and whether educators reading it arrive at claims they can
+defend.
+:::
+
+## Where this is going
+
+**Scale.** Studying how people write with AI across disciplines, institutions and
+levels of study. The methodological problems become unavoidable at scale:
+classifiers validated on one corpus have to hold across heterogeneous settings,
+and models of interdependence have to behave consistently across contexts the
+original studies never varied.
+
+**Domain.** GenAI is being taken up across activities that resemble writing in
+structure if not in content — most immediately data analysis and research writing
+in graduate education. Extending the chain there tests its generality. I expect
+capture and modelling to transfer and coding schemes to need rebuilding, but
+which parts travel is exactly what the work would establish.
+
+**Agentic systems.** Working with an agent differs from working with a chatbot.
+Human–AI interactions change in kind, number and timing, and AI-to-tool and
+AI-to-AI interactions become targets of study for the first time. Each link in
+the chain has to be reconsidered — what is worth capturing, which codes apply,
+and what interdependence means when most of the actors are not people.
+
+**Consent at the edge of capture.** Once collection extends onto tools people
+chose for their own purposes, consent cannot be a single act at the start of a
+study; it is distributed across time and tools and has to be renegotiated as the
+activity moves. Assessment sharpens this, because the standard privacy remedy is
+unavailable — anonymisation defeats the purpose of an assessment, which exists
+precisely to attribute evidence to a person. I plan to approach it as I
+approached representation: through co-design with the people whose activity is at
+stake.
+
+## Funded projects
+
+:::: {.record}
+[2026–]{.record-when}
+
+::: {.record-what}
+**Authentic Assessments for the Age of Generative Artificial Intelligence**
+[Australian Research Council · Primary Chief Investigator (PI equivalent)]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2026–]{.record-when}
+
+::: {.record-what}
+**Discovery Early Career Researcher Award (DECRA)**
+[Australian Research Council]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2024–]{.record-when}
+
+::: {.record-what}
+**Assessments for Writing with Generative Artificial Intelligence**
+[Australian Research Council · Monash University]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2023–]{.record-when}
+
+::: {.record-what}
+**HARNESS: Hierarchical Abstractions and Reasoning for Neuro-Symbolic Systems**
+[DARPA · Chief Investigator (co-PI equivalent), first-named after the lead]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2022–2025]{.record-when}
+
+::: {.record-what}
+**Large-scale multimodal knowledge management**
+[DARPA · Monash University]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2022–]{.record-when}
+
+::: {.record-what}
+**CELLA 2 CERES: Connecting the Center for Learning and Living with AI to CERES**
+[Jacobs Foundation · Monash University]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2021–2023]{.record-when}
+
+::: {.record-what}
+**Leading Virtual Learning Teacher Course**
+[Department of Education (Victoria) · Monash University]{.record-where}
+:::
+
+::::

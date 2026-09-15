@@ -1,0 +1,183 @@
+---
+title: "Curriculum Vitae"
+pagetitle: "CV — Zachari Swiecki"
+description-meta: "Curriculum vitae of Zachari Swiecki, Senior Lecturer in the Faculty of Information Technology at Monash University."
+---
+
+::: {.linkrow}
+[Download CV (PDF)](assets/Swiecki_CV.pdf)
+[Google Scholar](https://scholar.google.com.au/citations?hl=en&user=HSdHD5UAAAAJ)
+[ORCID](https://orcid.org/0000-0002-7414-5507)
+[Monash profile](https://research.monash.edu/en/persons/zachari-swiecki)
+:::
+
+## Appointments
+
+:::: {.record}
+[2024–]{.record-when}
+
+::: {.record-what}
+**Senior Lecturer**, Faculty of Information Technology
+[Monash University, Melbourne, Australia]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2020–2024]{.record-when}
+
+::: {.record-what}
+**Lecturer**, Faculty of Information Technology
+[Monash University, Melbourne, Australia]{.record-where}
+:::
+
+::::
+
+## Education
+
+:::: {.record}
+[2020]{.record-when}
+
+::: {.record-what}
+**PhD, Educational Psychology**
+[University of Wisconsin–Madison]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2016]{.record-when}
+
+::: {.record-what}
+**MS, Educational Psychology**
+[University of Wisconsin–Madison]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2013]{.record-when}
+
+::: {.record-what}
+**BS, Physics & Mathematics**, *summa cum laude*
+[University of Alabama]{.record-where}
+:::
+
+::::
+
+## Honours & awards
+
+:::: {.record}
+[2026]{.record-when}
+
+::: {.record-what}
+**Discovery Early Career Researcher Award (DECRA)**
+[Australian Research Council]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2022]{.record-when}
+
+::: {.record-what}
+**Vice-Chancellor's Award for Industry and Community Education Programs**
+[Monash University]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2015]{.record-when}
+
+::: {.record-what}
+**CADRE Fellow**
+[CADRE Fellows Program]{.record-where}
+:::
+
+::::
+
+Best Paper Awards at ICQE 2021 and ICQE 2020; Best Student Paper Award at ICQE
+2025; finalist recognitions at LAK 2025, ICQE 2022, ICQE 2025 and CSCL 2019 (see
+[Publications](publications.qmd)).
+
+## Service
+
+**Program co-chair** — The Sixth International Conference on Quantitative
+Ethnography (ICQE24); Poster & Demo Track, 16th International Learning Analytics
+& Knowledge Conference (LAK26).
+
+**Editorial board** — *International Journal of Computer-Supported Collaborative
+Learning*.
+
+**Program committee** — ICQE (2021–2023); LAK (2021–2026); FLAIRS-33 Intelligent
+Learning Technologies.
+
+**Reviewing** — *Journal of the Learning Sciences*, *Journal of Learning
+Analytics*, *Computers & Education*, *Computers and Education: Artificial
+Intelligence*, *British Journal of Educational Technology*, *Computers in Human
+Behavior*, *Artificial Intelligence Review*, *Frontiers in Psychology*,
+*ijCSCL*, *Transactions on Learning Technology*, and the ICLS, CSCL, LAK, ICQE
+and FLAIRS conferences.
+
+**At Monash** — Education and Analytics Group Coordinator, Department of
+Human-Centred Computing; Team Lead, AI Learning Circle; committee member,
+Education Transformation Project.
+
+## Selected invited talks
+
+:::: {.record}
+[2025]{.record-when}
+
+::: {.record-what}
+**Changing University Assessment Practices for a World with AI**
+[Invited panel, CRADLE International Symposium, Melbourne]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2024]{.record-when}
+
+::: {.record-what}
+**AI & QE: Opportunities and Challenges**
+[Invited panel, 6th International Conference on Quantitative Ethnography, Philadelphia]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2024]{.record-when}
+
+::: {.record-what}
+**From Outcomes to Process: Rethinking Assessment in the Age of Generative AI**
+[Inaugural Continuous Improvement Summit]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2024]{.record-when}
+
+::: {.record-what}
+**Rethinking Assessment in the Age of Generative AI**
+[LAK24 Assess workshop, Kyoto]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2023]{.record-when}
+
+::: {.record-what}
+**Quantitative Ethnography masterclasses**
+[Senshu University and Osaka University (Japan); National Yang Ming Chiao Tung University and National Central University (Taiwan); Seoul National University (South Korea)]{.record-where}
+:::
+
+::::
+
+## Contact
+
+Faculty of Information Technology, Monash University<br>
+Room 141, Clayton Campus, 25 Exhibition Walk, Clayton VIC 3800, Australia<br>
+[zach.swiecki@monash.edu](mailto:zach.swiecki@monash.edu)
