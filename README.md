@@ -80,12 +80,38 @@ That's it. `.github/workflows/publish.yml` renders and deploys on every push to
 `main`. The first run takes a couple of minutes; after that the site is live at
 `https://<your-username>.github.io`.
 
-**Then point the domain.** You already own `zachariswiecki.com` (currently
-served by WordPress.com), so the URL on your CV does not have to change — only
-what sits behind it.
+## Pointing the domain
 
-1. Confirm the new site looks right on the `github.io` URL first.
-2. At whoever holds the DNS for `zachariswiecki.com`, set:
+### Where things currently stand
+
+Checked against the public registration record, 15 Sep 2026:
+
+| | |
+|---|---|
+| Registrar | **Automattic Inc.** (WordPress.com) |
+| Nameservers | `NS1.WORDPRESS.COM`, `NS2`, `NS3` |
+| Registered | 15 July 2019 |
+| Paid through | **15 July 2027** |
+
+So the domain was bought through WordPress.com. That is not a problem and does
+not need to be changed. The key fact: **the site plan and the domain
+registration are separate purchases with separate renewal dates.** Cancelling
+the plan does not cancel the domain. The domain is only at risk if you delete
+the whole WordPress.com account, or cancel within a refund window that refunds
+the domain along with it.
+
+WordPress.com lets you edit DNS records for domains registered with them, so you
+can leave the registration exactly where it is and only change what the records
+point at.
+
+### The sequence (order matters)
+
+1. **Push the site and confirm it on the `github.io` address.** Don't touch DNS
+   until the new site is one you'd be happy for a search committee to see.
+
+2. **Change the DNS records.** WordPress.com → **Domains** →
+   `zachariswiecki.com` → **DNS records**. Replace the A records for `@`, and
+   add the `www` CNAME:
 
    | Type | Name | Value |
    |---|---|---|
@@ -95,21 +121,37 @@ what sits behind it.
    | A | `@` | `185.199.111.153` |
    | CNAME | `www` | `<your-username>.github.io` |
 
-3. In **Settings → Pages → Custom domain**, enter `zachariswiecki.com` and tick
-   **Enforce HTTPS** once the certificate is issued (usually under an hour).
+   WordPress.com may ask you to disconnect the domain from the WordPress site
+   first, or offer a "point to another service" option. Either is fine.
+   Propagation takes minutes to a few hours.
 
-The `CNAME` file in this repo already contains the domain, so GitHub keeps the
-setting across deploys.
+3. **Turn on the custom domain in GitHub.** Repo **Settings → Pages → Custom
+   domain**: enter `zachariswiecki.com`, then tick **Enforce HTTPS** once the
+   certificate is issued (usually under an hour). The `CNAME` file in this repo
+   already holds the domain, so the setting survives deploys.
 
-> **If the domain is *registered* through WordPress.com** rather than just
-> pointed there: don't cancel the plan until DNS is switched and working, or you
-> can lose control of the domain. Change the DNS records first, confirm the site
-> resolves, then cancel.
+4. **Wait a week.** Nothing is lost by leaving the WordPress plan running in the
+   background; the old site is simply no longer reachable at the domain.
+
+5. **Only then, cancel the WordPress.com site plan** — and keep the domain
+   renewal switched on. If the cancellation flow offers to refund or release the
+   domain, decline that part.
+
+Every step before 5 is reversible: put the old DNS records back and the
+WordPress site returns.
+
+### Later, optionally
+
+Moving the domain to a dedicated registrar (Cloudflare sells at cost, ~$10/yr,
+and doesn't upsell) is tidier long-term but has no urgency — a transfer takes
+about a week and the domain is paid through July 2027. Do it when nothing is
+riding on it.
 
 ## Cutting the WordPress site over
 
 The old site has Home, Curriculum Vitae, Selected Publications and Projects.
 Everything on it is superseded here except the three project write-ups
 (Visualizing Team Performance, Themes of Thrones, Epistemic Network Analysis).
-If you want any of those, copy the text across before you cancel the plan —
-WordPress.com content is not exported by DNS changes.
+If you want any of those, copy the text out before cancelling the plan — DNS
+changes don't export content, and cancelling the plan eventually takes the pages
+with it.
