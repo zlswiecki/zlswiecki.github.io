@@ -29,6 +29,11 @@ and [ORCID](https://orcid.org/0000-0002-7414-5507).
 <span id="pub-count"></span>
 :::
 
+::: {.pub-legend}
+† doctoral student under my main supervision · ‡ undergraduate student under my
+supervision
+:::
+
 ::: {#pubs}
 :::
 

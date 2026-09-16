@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae"
 pagetitle: "CV — Zachari Swiecki"
-description-meta: "Curriculum vitae of Zachari Swiecki, Senior Lecturer in the Faculty of Information Technology at Monash University."
+description-meta: "Curriculum vitae of Zachari Swiecki, ARC DECRA Fellow and Senior Lecturer in the Faculty of Information Technology at Monash University."
 ---
 
 ::: {.linkrow}
@@ -14,11 +14,21 @@ description-meta: "Curriculum vitae of Zachari Swiecki, Senior Lecturer in the F
 ## Appointments
 
 :::: {.record}
-[2024–]{.record-when}
+[2026–2029]{.record-when}
+
+::: {.record-what}
+**ARC DECRA Fellow** (Senior Research Fellow), Faculty of Information Technology
+[Monash University, Melbourne, Australia]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2024–2025]{.record-when}
 
 ::: {.record-what}
 **Senior Lecturer**, Faculty of Information Technology
-[Monash University, Melbourne, Australia]{.record-where}
+[Monash University. Continuing appointment; resumes in 2029 on completion of the DECRA]{.record-where}
 :::
 
 ::::
@@ -65,6 +75,14 @@ description-meta: "Curriculum vitae of Zachari Swiecki, Senior Lecturer in the F
 
 ::::
 
+## Grants
+
+Full amounts and roles are on the [Research](research.qmd#funded-projects) page.
+In summary: two Australian Research Council projects held as Primary Chief
+Investigator (PI equivalent) — a DECRA and a multi-institutional Discovery
+Project — and a DARPA program held as Chief Investigator, first-named after the
+lead.
+
 ## Honours & awards
 
 :::: {.record}
@@ -81,8 +99,18 @@ description-meta: "Curriculum vitae of Zachari Swiecki, Senior Lecturer in the F
 [2022]{.record-when}
 
 ::: {.record-what}
-**Vice-Chancellor's Award for Industry and Community Education Programs**
+**Vice-Chancellor's Award for Industry and Community Education Programs** (Industry)
 [Monash University]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2019]{.record-when}
+
+::: {.record-what}
+**Doctoral Consortium**
+[International Conference on Computer-Supported Collaborative Learning]{.record-where}
 :::
 
 ::::
@@ -97,9 +125,87 @@ description-meta: "Curriculum vitae of Zachari Swiecki, Senior Lecturer in the F
 
 ::::
 
-Best Paper Awards at ICQE 2021 and ICQE 2020; Best Student Paper Award at ICQE
-2025; finalist recognitions at LAK 2025, ICQE 2022, ICQE 2025 and CSCL 2019 (see
-[Publications](publications.qmd)).
+:::: {.record}
+[2008–2012]{.record-when}
+
+::: {.record-what}
+**B.B. Comer Math Prize** (2012); **Smith Scholar** and **Coca-Cola Scholar** (2008)
+[University of Alabama; Smith Scholarship Foundation; Coca-Cola Scholars Program]{.record-where}
+:::
+
+::::
+
+## Paper awards
+
+:::: {.record}
+[2025]{.record-when}
+
+::: {.record-what}
+**Best Student Paper Award**, ICQE25
+[Cheng & Swiecki]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2025]{.record-when}
+
+::: {.record-what}
+Best Student Paper Award **Finalist**, ICQE25
+[Han, Iveson, & Swiecki]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2025]{.record-when}
+
+::: {.record-what}
+Best Paper Award **Finalist**, LAK25
+[Fang, Wang, Chen, & Swiecki]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2022]{.record-when}
+
+::: {.record-what}
+Best Paper Award **Finalist**, ICQE22
+[Swiecki & Eagan]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2021]{.record-when}
+
+::: {.record-what}
+**Best Paper Award**, ICQE21
+[Swiecki]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2021]{.record-when}
+
+::: {.record-what}
+**Best Paper Award**, ICQE20
+[Zörgő, Swiecki, & Ruis]{.record-where}
+:::
+
+::::
+
+:::: {.record}
+[2019]{.record-when}
+
+::: {.record-what}
+Naomi Miyake Best Student Paper Award **Finalist**, CSCL 2019
+[Swiecki, Lian, Ruis, & Shaffer]{.record-where}
+:::
+
+::::
 
 ## Service
 
@@ -107,22 +213,24 @@ Best Paper Awards at ICQE 2021 and ICQE 2020; Best Student Paper Award at ICQE
 Ethnography (ICQE24); Poster & Demo Track, 16th International Learning Analytics
 & Knowledge Conference (LAK26).
 
-**Editorial board** — *International Journal of Computer-Supported Collaborative
-Learning*.
+**Editorial boards** — *International Journal of Computer-Supported
+Collaborative Learning* (2026–); *Journal of Quantitative Ethnography* (2026–).
 
-**Program committee** — ICQE (2021–2023); LAK (2021–2026); FLAIRS-33 Intelligent
-Learning Technologies.
+**Program committee** — ICQE21 through ICQE26; LAK21 through LAK26; FLAIRS-33
+Intelligent Learning Technologies.
 
-**Reviewing** — *Journal of the Learning Sciences*, *Journal of Learning
-Analytics*, *Computers & Education*, *Computers and Education: Artificial
-Intelligence*, *British Journal of Educational Technology*, *Computers in Human
-Behavior*, *Artificial Intelligence Review*, *Frontiers in Psychology*,
-*ijCSCL*, *Transactions on Learning Technology*, and the ICLS, CSCL, LAK, ICQE
-and FLAIRS conferences.
+**Reviewing** — *Artificial Intelligence Review*, *Australasian Journal of
+Educational Technology*, *British Journal of Educational Technology*, *Computers
+& Education*, *Computers and Education: Artificial Intelligence*, *Computers in
+Human Behavior*, *Frontiers in Psychology*, *IEEE Transactions on Learning
+Technologies*, *International Journal of Computer-Supported Collaborative
+Learning*, *Journal of Learning Analytics*, *Journal of the Learning Sciences*,
+Nova Science Publishers, and the ICLS, CSCL, LAK, ICQE and FLAIRS conferences.
 
 **At Monash** — Education and Analytics Group Coordinator, Department of
-Human-Centred Computing; Team Lead, AI Learning Circle; committee member,
-Education Transformation Project.
+Human-Centred Computing (2024–2025); Team Lead, AI Learning Circle (2023–2025);
+Committee Member, Education Transformation Project, Faculty of Information
+Technology (2022–2023).
 
 ## Selected invited talks
 
@@ -141,7 +249,7 @@ Education Transformation Project.
 
 ::: {.record-what}
 **AI & QE: Opportunities and Challenges**
-[Invited panel, 6th International Conference on Quantitative Ethnography, Philadelphia]{.record-where}
+[Invited panel, Sixth International Conference on Quantitative Ethnography, Philadelphia]{.record-where}
 :::
 
 ::::
@@ -170,14 +278,29 @@ Education Transformation Project.
 [2023]{.record-when}
 
 ::: {.record-what}
-**Quantitative Ethnography masterclasses**
-[Senshu University and Osaka University (Japan); National Yang Ming Chiao Tung University and National Central University (Taiwan); Seoul National University (South Korea)]{.record-where}
+**Quantitative Ethnography Masterclass Series**
+[Six invited lectures: National Yang Ming Chiao Tung University and National Central University (Taiwan); Seoul National University (South Korea); Osaka and Senshu Universities (Japan)]{.record-where}
 :::
 
 ::::
 
+:::: {.record}
+[2023]{.record-when}
+
+::: {.record-what}
+**Assessment in the Age of Generative Artificial Intelligence**
+[University of New South Wales]{.record-where}
+:::
+
+::::
+
+The full record of talks, paper presentations, workshops and posters is in the
+[PDF](assets/Swiecki_CV.pdf).
+
 ## Contact
 
+Department of Data Science and Artificial Intelligence<br>
 Faculty of Information Technology, Monash University<br>
-Room 141, Clayton Campus, 25 Exhibition Walk, Clayton VIC 3800, Australia<br>
+Room 3.57, Alan Finkel Building for Technology and Design<br>
+20 Exhibition Walk, Clayton VIC 3800, Australia<br>
 [zach.swiecki@monash.edu](mailto:zach.swiecki@monash.edu)

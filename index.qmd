@@ -12,8 +12,9 @@ Zachari Swiecki
 :::
 
 ::: {.hero-role}
-**Senior Lecturer**, Faculty of Information Technology, Monash University<br>
-ARC Discovery Early Career Research Award Fellow
+**ARC DECRA Fellow** (Senior Research Fellow), Faculty of Information
+Technology, Monash University<br>
+Senior Lecturer (continuing appointment)
 :::
 
 ::: {.hero-lede}
@@ -79,9 +80,10 @@ method and an instrument at each link:
 
 ## Currently
 
-- Leading an **ARC Discovery Project** on authentic assessment for the age of
-  generative AI, and holding an **ARC DECRA** on assessments for writing with
-  generative AI.
+- Leading two Australian Research Council projects as Primary Chief Investigator
+  (PI equivalent) — an **ARC DECRA** on authentic assessment for the age of
+  generative AI, and an **ARC Discovery Project**, with a multi-institutional
+  team, on assessments for writing with generative AI.
 - Taking the browser-extension version of *Trace* out of closed beta and into
   in-the-wild studies of writing.
 - Building and validating LLM-based classifiers for AI-assisted writing —
@@ -96,8 +98,10 @@ method and an instrument at each link:
 I completed my PhD in Educational Psychology at the University of
 Wisconsin–Madison in 2020, working in the Epistemic Analytics Lab, after a BS in
 Physics and Mathematics at the University of Alabama. I have been at Monash
-since 2020, and a Senior Lecturer since 2024.
+since 2020, a Senior Lecturer since 2024, and hold an ARC Discovery Early Career
+Researcher Award from 2026 to 2029.
 
-I serve on the editorial board of the *International Journal of
-Computer-Supported Collaborative Learning*, was program co-chair of ICQE24, and
-co-chair the Poster and Demo track for LAK26.
+I serve on the editorial boards of the *International Journal of
+Computer-Supported Collaborative Learning* and the *Journal of Quantitative
+Ethnography*, was program co-chair of ICQE24, and co-chair the Poster and Demo
+track for LAK26.

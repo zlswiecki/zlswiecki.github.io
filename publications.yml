@@ -1,23 +1,57 @@
 # Publication list — single source of truth for publications.qmd
+# Built from Swiecki_CV_0926_final.pdf (September 2026).
 #
 # To add a paper, copy a block and fill it in. Fields:
 #   title  (required)   author (required)   year (required)
 #   venue  (required)   type: journal | chapter | conference | software | thesis
 #   url    (optional)   link to DOI or publisher page
 #   award  (optional)   short badge text, e.g. "Best Paper Award"
+#   status (optional)   "In press" | "Under review" | "Accepted"
+#
+# Author marks follow the CV: † doctoral student under main supervision,
+# ‡ undergraduate student under supervision. Write your own name exactly as
+# "Swiecki, Z." — the page emphasises that string automatically.
 #
 # Entries are sorted by year automatically; order in this file does not matter.
 
-- title: "Asking generative artificial intelligence the right questions improves writing performance"
-  author: "Cheng, Y., Fan, Y., Li, X., Chen, G., Gašević, D., & Swiecki, Z."
-  year: 2025
-  venue: "Computers and Education: Artificial Intelligence, 8, 100374"
+# ---------------------------------------------------------------- journals --
+
+- title: "How do critical evaluations of generative AI outputs shape teacher agency? A mixed-methods comparative analysis"
+  author: "Sha, L., Liang, Z., Zhao, L., Li, Y., Fernandez-Nieto, G. M., Tsai, Y., Swiecki, Z., Chen, G., & Gašević, D."
+  year: 2026
+  venue: "International Journal of Human–Computer Interaction"
+  type: journal
+  status: "In press"
+
+- title: "Capturing and sharing know-how through visual process representations: A human-centred approach to teacher workflows"
+  author: "Fernandez-Nieto, G. M., Echeverria, V., Li, Y., Tsai, Y., Sha, L., Chen, G., Gašević, D., & Swiecki, Z."
+  year: 2026
+  venue: "Behaviour & Information Technology. Advance online publication"
+  type: journal
+  url: "https://doi.org/10.1080/0144929X.2026.2636694"
+
+- title: "Ink and algorithm: Exploring temporal dynamics in generative AI-assisted writing"
+  author: "Yang, K., Cheng, Y.†, Zhao, L., Raković, M., Swiecki, Z., Gašević, D., & Chen, G."
+  year: 2026
+  venue: "British Journal of Educational Technology, 57(2), 508–534"
   type: journal
 
 - title: "Community of inquiry in motion: Modeling inquiry dynamics with movement analysis (MOVA)"
-  author: "Shen, B., Swiecki, Z., Tan, Y., Lu, G., Shaffer, D. W., & Gašević, D."
-  year: 2025
+  author: "Ba, S., Swiecki, Z., Tan, Y., Lu, G., Shaffer, D. W., & Gašević, D."
+  year: 2026
   venue: "Computers & Education, 242, 105513"
+  type: journal
+
+- title: "Towards reliable generative AI-driven scaffolding: Reducing hallucinations and enhancing quality in self-regulated learning support"
+  author: "Qian, K., Liu, S., Li, T., Raković, M., Li, X., Guan, R., Molenaar, I., Nawaz, S., Swiecki, Z., Yan, L., & Gašević, D."
+  year: 2026
+  venue: "Computers & Education, 240, 105448"
+  type: journal
+
+- title: "Asking generative artificial intelligence the right questions improves writing performance"
+  author: "Cheng, Y.†, Fan, Y., Li, X., Chen, G., Gašević, D., & Swiecki, Z."
+  year: 2025
+  venue: "Computers and Education: Artificial Intelligence, 8, 100374"
   type: journal
 
 - title: "Analytics of self-regulated learning strategies and scaffolding: Associations with learning performance"
@@ -26,16 +60,22 @@
   venue: "Computers and Education: Artificial Intelligence, 8, 100410"
   type: journal
 
-- title: "Towards reliable generative AI-driven scaffolding: Reducing hallucinations and enhancing quality in self-regulated learning support"
-  author: "Qian, K., Liu, S., Li, T., Raković, M., Li, X., Guan, R., Molenaar, I., Nawas, S., Swiecki, Z., Yan, L., & Gašević, D."
-  year: 2025
-  venue: "Computers & Education, 240, 105448"
-  type: journal
-
 - title: "Dissecting the temporal dynamics of embodied collaborative learning using multimodal learning analytics"
   author: "Yan, L., Martinez-Maldonado, R., Swiecki, Z., Zhao, L., Li, X., & Gašević, D."
   year: 2025
   venue: "Journal of Educational Psychology, 117(1), 106–133"
+  type: journal
+
+- title: "Investigating the effect of visualization literacy and guidance on teachers' dashboard interpretation"
+  author: "Pozdniakov, S., Martinez-Maldonado, R., Tsai, Y., Echeverria, V., Swiecki, Z., & Gašević, D."
+  year: 2025
+  venue: "Journal of Learning Analytics, 12(1), 367–390"
+  type: journal
+
+- title: "Desktop versus VR for collaborative sensemaking"
+  author: "Yang, Y., Dwyer, T., Swiecki, Z., Lee, B., Wybrow, M., Cordeil, M., Wulandari, T., Thomas, B. H., & Billinghurst, M."
+  year: 2025
+  venue: "Frontiers in Virtual Reality, 6, 1570383"
   type: journal
 
 - title: "Evidence-based multimodal learning analytics for feedback and reflection in collaborative learning"
@@ -53,13 +93,19 @@
 - title: "Human-centred learning analytics and AI in education: A systematic literature review"
   author: "Alfredo, R., Echeverria, V., Jin, Y., Yan, L., Swiecki, Z., Gašević, D., & Martinez-Maldonado, R."
   year: 2024
-  venue: "Computers and Education: Artificial Intelligence, 6"
+  venue: "Computers and Education: Artificial Intelligence, 6, 100215"
+  type: journal
+
+- title: "Designing a human-centred learning analytics dashboard in-use"
+  author: "Alfredo, R., Echeverria, V., Zhao, L., Lawrence, L., Fan, J. X., Yan, L., Li, X., Swiecki, Z., Gašević, D., & Martinez-Maldonado, R."
+  year: 2024
+  venue: "Journal of Learning Analytics, 11(3), 62–81"
   type: journal
 
 - title: "Analytics of self-regulated learning scaffolding: Effects on learning processes"
   author: "Li, T., Fan, Y., Tan, Y., Wang, Y., Singh, S., Li, X., Raković, M., van der Graaf, J., Lim, L., Yang, B., Molenaar, I., Bannert, M., Moore, J., Swiecki, Z., Tsai, Y. S., Shaffer, D. W., & Gašević, D."
   year: 2023
-  venue: "Frontiers in Psychology, 14"
+  venue: "Frontiers in Psychology, 14, 1206696"
   type: journal
 
 - title: "Assessment in the age of artificial intelligence"
@@ -75,7 +121,7 @@
   type: journal
 
 - title: "What do you mean by collaboration analytics? A conceptual model"
-  author: "Martinez-Maldonado, R., Fernandez Nieto, G., Echeverria, V., Swiecki, Z., Buckingham Shum, S., & Gašević, D."
+  author: "Martinez-Maldonado, R., Fernandez-Nieto, G., Echeverria, V., Swiecki, Z., Buckingham Shum, S., & Gašević, D."
   year: 2021
   venue: "Journal of Learning Analytics, 8(1), 126–153"
   type: journal
@@ -94,7 +140,7 @@
   type: journal
 
 - title: "A grounded qualitative analysis of the effect of a focus group on design process in a virtual internship"
-  author: "Markovetz, M. R., Sullivan, S., Clark, R. M., Swiecki, Z., Arastoopour Irgens, G., Chesler, N. C., Shaffer, D. W., & Bodnar, C. A."
+  author: "Markovetz, M. R., Sullivan, S., Clark, R. M., Swiecki, Z., Arastoopour Irgens, G., Shaffer, D. W., Chesler, N. C., & Bodnar, C. A."
   year: 2017
   venue: "International Journal of Engineering Education, 33(6), 1834–1841"
   type: journal
@@ -120,10 +166,17 @@
 - title: "A novel paradigm for engineering education: Virtual internships with individualized mentoring and assessment of engineering thinking"
   author: "Chesler, N. C., Ruis, A. R., Collier, W., Swiecki, Z., Arastoopour, G., & Shaffer, D. W."
   year: 2015
-  venue: "Journal of Biomechanical Engineering, 137(2)"
+  venue: "Journal of Biomechanical Engineering, 137(2), 024701"
   type: journal
 
 # ---------------------------------------------------------------- chapters --
+
+- title: "Open tools for the authentic assessment of GenAI-assisted practices"
+  author: "Swiecki, Z."
+  year: 2026
+  venue: "In Designing University Assessment for a World with Artificial Intelligence. Routledge"
+  type: chapter
+  status: "In press"
 
 - title: "In conversation: Baker, Järvelä & Williamson Shaffer — The relationship between computational methods and theory in learning analytics"
   author: "Swiecki, Z., Baker, R., Järvelä, S., & Shaffer, D. W."
@@ -134,7 +187,7 @@
 - title: "Epistemic network analysis and ordered network analysis in learning analytics"
   author: "Tan, Y., Swiecki, Z., Ruis, A. R., & Shaffer, D. W."
   year: 2024
-  venue: "In M. Saqr & S. Lopez-Pernas (Eds.), Learning Analytics Methods and Tutorials: A Practical Guide Using R (pp. 569–634). Springer"
+  venue: "In M. Saqr & S. López-Pernas (Eds.), Learning Analytics Methods and Tutorials: A Practical Guide Using R (pp. 569–634). Springer"
   type: chapter
 
 - title: "Artificial intelligence techniques for supporting face-to-face and online collaborative learning"
@@ -146,7 +199,7 @@
 - title: "Behind the curtain: An epistemic design process for democratic media education simulations"
   author: "Stoddard, J., Swiecki, Z., & Shaffer, D. W."
   year: 2018
-  venue: "In C. Wright-Maley (Ed.), More Like Life Itself: Simulations as Powerful and Purposeful Social Studies (pp. 21–39). Information Age Press"
+  venue: "In C. Wright-Maley (Ed.), More Like Life Itself: Simulations as Powerful and Purposeful Social Studies (pp. 21–39). Information Age Publishing"
   type: chapter
 
 - title: "Dependency-centered design as an approach to pedagogical authoring"
@@ -157,26 +210,33 @@
 
 # ------------------------------------------------------------- conferences --
 
+- title: "From diagnosis to redesign: Using quantitative ethnography to improve multi-agent LLM reasoning"
+  author: "Khatri, V., Cusimano, A., Swiecki, Z., Xu, Z., Liu, X., & Yu, R."
+  year: 2026
+  venue: "Eighth International Conference on Quantitative Ethnography (ICQE26), Hiroshima, Japan"
+  type: conference
+  status: "Accepted"
+
+- title: "Toward an affordance-based taxonomy of GenAI-assisted writing tools"
+  author: "Cheng, Y.†, & Swiecki, Z."
+  year: 2026
+  venue: "Eighth International Conference on Quantitative Ethnography (ICQE26), Hiroshima, Japan"
+  type: conference
+  status: "Accepted"
+
 - title: "More than words: Evidencing qualitative findings through multimodal narratives"
-  author: "Cheng, Y., & Swiecki, Z."
+  author: "Cheng, Y.†, & Swiecki, Z."
   year: 2025
-  venue: "Advances in Quantitative Ethnography (ICQE 2025), CCIS vol. 2677. Springer"
+  venue: "Advances in Quantitative Ethnography (ICQE 2025), 242–257. CCIS vol. 2677. Springer"
   type: conference
   award: "Best Student Paper Award"
 
 - title: "Demands-resources in doctoral education: Mapping pathways to dropout intention and careers in further research"
   author: "Han, J., Iveson, S. D., & Swiecki, Z."
   year: 2025
-  venue: "Advances in Quantitative Ethnography (ICQE 2025), CCIS vol. 2677. Springer"
+  venue: "Advances in Quantitative Ethnography (ICQE 2025). CCIS vol. 2677. Springer"
   type: conference
   award: "Best Student Paper finalist"
-
-- title: "The company you keep: Refining neural epistemic network analysis"
-  author: "Fang, Z., Wang, W., Chen, G., & Swiecki, Z."
-  year: 2025
-  venue: "Proceedings of the 15th Learning Analytics and Knowledge Conference (LAK '25), 216–226. ACM"
-  type: conference
-  award: "Best Paper finalist"
 
 - title: "ShareFlow: Seamless knowledge capture and proactive push for efficient teacher workflows in higher education"
   author: "Sha, L., Fernandez-Nieto, G., Li, Y., Tsai, Y., Chen, G., Wen, J., Singh, S., Feraud, I. S., Gašević, D., & Swiecki, Z."
@@ -184,46 +244,41 @@
   venue: "Proceedings of the 30th International Conference on Intelligent User Interfaces (IUI '25), 1242–1255. ACM"
   type: conference
 
+- title: "The company you keep: Refining neural epistemic network analysis"
+  author: "Fang, Z.†, Wang, W., Chen, G., & Swiecki, Z."
+  year: 2025
+  venue: "Proceedings of the 15th Learning Analytics and Knowledge Conference (LAK '25), 216–226. ACM"
+  type: conference
+  award: "Best Paper finalist"
+
 - title: "Qualitative parameter triangulation: A conceptual and methodological framework for event-based temporal models"
   author: "Wang, Y., Carpenter, Z., Swiecki, Z., & Shaffer, D. W."
   year: 2025
   venue: "Proceedings of the 15th Learning Analytics and Knowledge Conference (LAK '25), 537–546. ACM"
   type: conference
 
+- title: "TeamTeachingViz: Benefits, challenges, and ethical considerations of using a multimodal dashboard to support team teaching reflection"
+  author: "Alfredo, R., Mejia-Domenzain, P., Echeverria, V., Rahayu, D., Zhao, L., Alajilan, H., Swiecki, Z., Kaser, T., Gašević, D., & Martinez-Maldonado, R."
+  year: 2025
+  venue: "Proceedings of the 15th Learning Analytics and Knowledge Conference (LAK '25), 58–69. ACM"
+  type: conference
+
 - title: "Self-regulated learning processes in secondary education: A network analysis of trace-based measures"
-  author: "Cheng, Y., Guan, R., Li, T., Raković, M., Li, X., Fan, Y., Jin, F., Tsai, Y., Gašević, D., & Swiecki, Z."
+  author: "Cheng, Y.†, Guan, R., Li, T., Raković, M., Li, X., Fan, Y., Jin, F., Tsai, Y., Gašević, D., & Swiecki, Z."
   year: 2025
   venue: "Proceedings of the 15th Learning Analytics and Knowledge Conference (LAK '25), 260–271. ACM"
   type: conference
 
 - title: "Turning real-time analytics into adaptive scaffolds for self-regulated learning using generative artificial intelligence"
-  author: "Li, T., Nath, D., Cheng, Y., Fan, Y., Li, X., Raković, M., Khosravi, H., Swiecki, Z., Tsai, Y., & Gašević, D."
+  author: "Li, T., Nath, D., Cheng, Y.†, Fan, Y., Li, X., Raković, M., Khosravi, H., Swiecki, Z., Tsai, Y., & Gašević, D."
   year: 2025
   venue: "Proceedings of the 15th Learning Analytics and Knowledge Conference (LAK '25), 667–679. ACM"
   type: conference
 
-- title: "TeamTeachingViz: Benefits, challenges, and ethical considerations of using a multimodal dashboard to support team teaching reflection"
-  author: "Alfredo, R., Mejia-Domenzain, P., Echeverria, V., Rahayu, D., Zhao, L., Alajilan, H., Swiecki, Z., Käser, T., Gašević, D., & Martinez-Maldonado, R."
-  year: 2025
-  venue: "Proceedings of the 15th Learning Analytics and Knowledge Conference (LAK '25), 58–69. ACM"
-  type: conference
-
-- title: "Neural epistemic network analysis: Combining graph neural networks and epistemic network analysis to model collaborative processes"
-  author: "Fang, Z., Wang, W., Chen, G., & Swiecki, Z."
+- title: "Putting our minds together: Iterative exploration for collaborative mind mapping"
+  author: "Yang, Y., Dwyer, T., Swiecki, Z., Lee, B., Wybrow, M., Cordeil, M., Wulandari, T., Thomas, B. H., & Billinghurst, M."
   year: 2024
-  venue: "Proceedings of the 14th Learning Analytics and Knowledge Conference (LAK '24), 157–166. ACM"
-  type: conference
-
-- title: "Evidence-centered assessment for writing with generative AI"
-  author: "Cheng, Y., Lyons, K., Chen, G., Gašević, D., & Swiecki, Z."
-  year: 2024
-  venue: "Proceedings of the 14th Learning Analytics and Knowledge Conference (LAK '24), 178–188. ACM"
-  type: conference
-
-- title: "Automated discourse analysis via generative artificial intelligence"
-  author: "Garg, G., Han, J., Cheng, Y., Fang, Z., & Swiecki, Z."
-  year: 2024
-  venue: "Proceedings of the 14th Learning Analytics and Knowledge Conference (LAK '24), 814–820. ACM"
+  venue: "Proceedings of the Augmented Humans International Conference 2024, 255–258"
   type: conference
 
 - title: "Co-designing a knowledge management tool for educator communities of practice"
@@ -238,10 +293,28 @@
   venue: "Proceedings of the 14th Learning Analytics and Knowledge Conference (LAK '24), 438–449. ACM"
   type: conference
 
+- title: "Neural epistemic network analysis: Combining graph neural networks and epistemic network analysis to model collaborative processes"
+  author: "Fang, Z.†, Wang, W., Chen, G., & Swiecki, Z."
+  year: 2024
+  venue: "Proceedings of the 14th Learning Analytics and Knowledge Conference (LAK '24), 157–166. ACM"
+  type: conference
+
 - title: "Measuring affective and motivational states as conditions for cognitive and metacognitive processing in self-regulated learning"
   author: "Raković, M., Li, Y., Foumani, N., Salehi, M., Kuhlmann, L., Mackellar, G., Martinez-Maldonado, R., Haffari, G., Swiecki, Z., Li, X., Chen, G., & Gašević, D."
   year: 2024
   venue: "Proceedings of the 14th Learning Analytics and Knowledge Conference (LAK '24), 701–712. ACM"
+  type: conference
+
+- title: "Automated discourse analysis via generative artificial intelligence"
+  author: "Garg, G.‡, Han, J., Cheng, Y.†, Fang, Z.†, & Swiecki, Z."
+  year: 2024
+  venue: "Proceedings of the 14th Learning Analytics and Knowledge Conference (LAK '24), 814–820. ACM"
+  type: conference
+
+- title: "Evidence-centered assessment for writing with generative AI"
+  author: "Cheng, Y.†, Lyons, K., Chen, G., Gašević, D., & Swiecki, Z."
+  year: 2024
+  venue: "Proceedings of the 14th Learning Analytics and Knowledge Conference (LAK '24), 178–188. ACM"
   type: conference
 
 - title: "Epistemic network analysis for end-users: Closing the loop in the context of multimodal analytics for collaborative team learning"
@@ -256,22 +329,23 @@
   venue: "Proceedings of the 14th Learning Analytics and Knowledge Conference (LAK '24), 24–34. ACM"
   type: conference
 
-- title: "Putting our minds together: Iterative exploration for collaborative mind mapping"
-  author: "Yang, Y., Dwyer, T., Swiecki, Z., Lee, B., Wybrow, M., Cordeil, M., Wulandari, T., Thomas, B., & Billinghurst, M."
+- title: "Human-AI collaboration in thematic analysis using ChatGPT: A user study and design recommendations"
+  author: "Yan, L., Echeverria, V., Fernandez-Nieto, G. M., Jin, Y., Swiecki, Z., Zhao, L., Gašević, D., & Martinez-Maldonado, R."
   year: 2024
-  venue: "Proceedings of the Augmented Humans International Conference 2024, 255–258"
+  venue: "Extended Abstracts of the CHI Conference on Human Factors in Computing Systems, Article 191, 1–7. ACM"
   type: conference
-
-- title: "Automated code discovery via graph neural networks and generative AI"
-  author: "Fang, Z., Yang, Y., & Swiecki, Z."
-  year: 2023
-  venue: "Advances in Quantitative Ethnography (ICQE 2023), 438–454. Springer"
-  type: conference
+  url: "https://doi.org/10.1145/3613905.3650732"
 
 - title: "Do learners appreciate adaptivity? An epistemic network analysis of how learners perceive adaptive scaffolding"
   author: "Li, T., Lin, J., Iqbal, S., Swiecki, Z., Tsai, Y., Fan, Y., & Gašević, D."
   year: 2023
   venue: "Advances in Quantitative Ethnography (ICQE 2023), 3–17. Springer"
+  type: conference
+
+- title: "Automated code discovery via graph neural networks and generative AI"
+  author: "Fang, Z.†, Yang, Y., & Swiecki, Z."
+  year: 2023
+  venue: "Advances in Quantitative Ethnography (ICQE 2023), 438–454. Springer"
   type: conference
 
 - title: "Characterising individual-level collaborative learning behaviours using ordered network analysis and wearable sensors"
@@ -280,49 +354,49 @@
   venue: "Advances in Quantitative Ethnography (ICQE 2023), 66–80. Springer"
   type: conference
 
-- title: "\"That student should be a lion tamer!\" Stress Viz: Designing a stress analytics dashboard for teachers"
+- title: "\"That student should be a lion tamer!\" StressViz: Designing a stress analytics dashboard for teachers"
   author: "Alfredo, R. D., Nie, L., Kennedy, P., Power, T., Hayes, C., Chen, H., McGregor, C., Swiecki, Z., Gašević, D., & Martinez-Maldonado, R."
   year: 2023
-  venue: "Proceedings of the 13th International Conference on Learning Analytics and Knowledge (LAK '23)"
+  venue: "Proceedings of the 13th International Learning Analytics and Knowledge Conference (LAK '23), 57–67. ACM"
   type: conference
 
 - title: "METS: Multimodal learning analytics of embodied teamwork learning"
   author: "Zhao, L., Swiecki, Z., Gašević, D., Yan, L., Dix, S., Jaggard, H., Wotherspoon, R., Osborne, A., Li, X., Alfredo, R. D., & Martinez-Maldonado, R."
   year: 2023
-  venue: "Proceedings of the 13th International Conference on Learning Analytics and Knowledge (LAK '23)"
+  venue: "Proceedings of the 13th International Learning Analytics and Knowledge Conference (LAK '23), 186–196. ACM"
   type: conference
 
-- title: "The role of data simulations in quantitative ethnography"
+- title: "The role of data simulation in quantitative ethnography"
   author: "Swiecki, Z., & Eagan, B."
   year: 2022
-  venue: "Advances in Quantitative Ethnography (ICQE 2022). Springer"
+  venue: "Advances in Quantitative Ethnography (ICQE 2022), 87–100. Springer"
   type: conference
   award: "Best Paper finalist"
+
+- title: "Popularity prediction in MOOCs: A case study on Udemy"
+  author: "Li, L., Swiecki, Z., Gašević, D., & Chen, G."
+  year: 2022
+  venue: "Artificial Intelligence in Education (AIED 2022), 607–613. LNCS vol. 13355. Springer"
+  type: conference
 
 - title: "Simulating collaborative discourse data"
   author: "Swiecki, Z., Marquart, C., & Eagan, B."
   year: 2022
-  venue: "Proceedings of the 15th International Conference on Computer-Supported Collaborative Learning (CSCL 2022). ISLS"
+  venue: "Proceedings of the 15th International Conference on Computer-Supported Collaborative Learning (CSCL 2022), 83–90. ISLS"
+  type: conference
+
+- title: "Uncovering associations between cognitive presence and speech acts: A network-based approach"
+  author: "Iqbal, S., Swiecki, Z., Joksimovic, S., Mello, R. F., Aljohani, N. R., Hassan, S.-U., & Gašević, D."
+  year: 2022
+  venue: "Proceedings of the 12th International Learning Analytics and Knowledge Conference (LAK '22), 315–325. ACM"
   type: conference
 
 - title: "The expected value test: A new statistical warrant for theoretical saturation"
   author: "Swiecki, Z."
   year: 2022
-  venue: "Advances in Quantitative Ethnography (ICQE 2021), CCIS vol. 1522. Springer"
+  venue: "Advances in Quantitative Ethnography (ICQE 2021), 49–65. CCIS vol. 1522. Springer"
   type: conference
   award: "Best Paper Award"
-
-- title: "Uncovering associations between cognitive presence and speech acts: A network-based approach"
-  author: "Iqbal, S., Swiecki, Z., Joksimović, S., Mello, R. F., Aljohani, N. D., Hassan, S., & Gašević, D."
-  year: 2022
-  venue: "Proceedings of the 12th International Learning Analytics and Knowledge Conference (LAK '22)"
-  type: conference
-
-- title: "Popularity prediction in MOOCs: A case study on Udemy"
-  author: "Lin, L., Swiecki, Z., Chen, G., & Gašević, D."
-  year: 2022
-  venue: "Artificial Intelligence in Education (AIED 2022)"
-  type: conference
 
 - title: "The mathematical foundations of epistemic network analysis"
   author: "Bowman, D., Swiecki, Z., Cai, Z., Wang, Y., Eagan, B., Linderoth, J., & Shaffer, D. W."
@@ -352,14 +426,14 @@
 - title: "iSENS: An integrated approach to combining epistemic and social network analyses"
   author: "Swiecki, Z., & Shaffer, D. W."
   year: 2020
-  venue: "Proceedings of the 10th International Conference on Learning Analytics and Knowledge (LAK '20). ACM"
+  venue: "Proceedings of the 10th International Conference on Learning Analytics and Knowledge (LAK '20), 305–313. ACM"
   type: conference
   url: "https://doi.org/10.1145/3375462.3375505"
 
 - title: "Designing an interface for sharing quantitative ethnographic research data"
   author: "Swiecki, Z., Marquart, C., Sachar, A., Hinojosa, C., Ruis, A. R., & Shaffer, D. W."
   year: 2019
-  venue: "Advances in Quantitative Ethnography (ICQE 2019)"
+  venue: "Advances in Quantitative Ethnography (ICQE 2019), 334–341. CCIS vol. 1112. Springer"
   type: conference
 
 - title: "The binary replicate test: Determining the sensitivity of CSCL models to coding error"
@@ -411,28 +485,55 @@
   venue: "Proceedings of the International Conference of the Learning Sciences (ICLS 2016), Vol. 2, 631–638. ISLS"
   type: conference
 
-# -------------------------------------------------------------- software ---
+# ------------------------------------------------ software & platforms -----
 
-- title: "rENA: Epistemic Network Analysis"
+- title: "Trace: Replay"
+  author: "Arora, J., & Swiecki, Z."
+  year: 2026
+  venue: "Visualization tool for GenAI-assisted writing sessions"
+  type: software
+
+- title: "Trace: Browser"
+  author: "Wen, J., Arora, J., & Swiecki, Z."
+  year: 2026
+  venue: "Browser extension for capturing GenAI-assisted writing; closed beta"
+  type: software
+
+- title: "Trace: Web"
+  author: "Arora, J., & Swiecki, Z."
+  year: 2025
+  venue: "Learning analytics platform for GenAI-assisted writing"
+  type: software
+
+- title: "Epistemic Network Analysis (web application, v1.7.0)"
+  author: "Marquart, C. L., Hinojosa, C., Swiecki, Z., Eagan, B., & Shaffer, D. W."
+  year: 2018
+  venue: "Web application"
+  type: software
+  url: "http://app.epistemicnetwork.org/login.html"
+
+- title: "rENA: Epistemic Network Analysis (v0.1.5)"
   author: "Marquart, C., Swiecki, Z., Collier, W., Eagan, B., Woodward, R., & Shaffer, D. W."
   year: 2018
   venue: "R package, CRAN"
   type: software
   url: "https://cran.r-project.org/package=rENA"
 
-- title: "ncodeR: Techniques for Automated Classifiers"
+- title: "ncodeR: Techniques for Automated Classifiers (v0.1.2)"
   author: "Marquart, C., Swiecki, Z., Eagan, B., & Shaffer, D. W."
   year: 2018
   venue: "R package, CRAN"
   type: software
   url: "https://cran.r-project.org/package=ncodeR"
 
-- title: "Epistemic Network Analysis (web application)"
-  author: "Marquart, C. L., Hinojosa, C., Swiecki, Z., & Shaffer, D. W."
-  year: 2018
-  venue: "Web application"
-  type: software
-  url: "http://app.epistemicnetwork.org/login.html"
+# ------------------------------------------------------- under review ------
+
+- title: "Method-facing simulation of coded collaborative discourse"
+  author: "Fang, Z.†, & Swiecki, Z."
+  year: 2026
+  venue: "International Journal of Computer-Supported Collaborative Learning"
+  type: journal
+  status: "Under review"
 
 # ---------------------------------------------------------------- thesis ---
 

@@ -206,41 +206,21 @@ stake.
 ## Funded projects
 
 :::: {.record}
-[2026–]{.record-when}
+[2026–2029]{.record-when}
 
 ::: {.record-what}
 **Authentic Assessments for the Age of Generative Artificial Intelligence**
-[Australian Research Council · Primary Chief Investigator (PI equivalent)]{.record-where}
+[Australian Research Council, Discovery Early Career Researcher Award · Primary Chief Investigator (PI equivalent) · AUD $720,677]{.record-where}
 :::
 
 ::::
 
 :::: {.record}
-[2026–]{.record-when}
-
-::: {.record-what}
-**Discovery Early Career Researcher Award (DECRA)**
-[Australian Research Council]{.record-where}
-:::
-
-::::
-
-:::: {.record}
-[2024–]{.record-when}
+[2024–2027]{.record-when}
 
 ::: {.record-what}
 **Assessments for Writing with Generative Artificial Intelligence**
-[Australian Research Council · Monash University]{.record-where}
-:::
-
-::::
-
-:::: {.record}
-[2023–]{.record-when}
-
-::: {.record-what}
-**HARNESS: Hierarchical Abstractions and Reasoning for Neuro-Symbolic Systems**
-[DARPA · Chief Investigator (co-PI equivalent), first-named after the lead]{.record-where}
+[Australian Research Council, Discovery Projects · Primary Chief Investigator (PI equivalent) of a multi-institutional investigator team · AUD $742,212]{.record-where}
 :::
 
 ::::
@@ -249,28 +229,32 @@ stake.
 [2022–2025]{.record-when}
 
 ::: {.record-what}
-**Large-scale multimodal knowledge management**
-[DARPA · Monash University]{.record-where}
+**Large-Scale Multimodal Knowledge Management: From Organization and User Modeling to Fast Contextual Presentation**
+[DARPA, Knowledge Management at Scale and Speed program · Chief Investigator (co-PI equivalent), first-named after the lead · AUD $5,556,372]{.record-where}
 :::
 
 ::::
 
 :::: {.record}
-[2022–]{.record-when}
+[2021–2026]{.record-when}
 
 ::: {.record-what}
-**CELLA 2 CERES: Connecting the Center for Learning and Living with AI to CERES**
-[Jacobs Foundation · Monash University]{.record-where}
+**CELLA 2 CERES: Connecting the Center for Learning and Living with Artificial Intelligence to CERES**
+[Jacobs Foundation · Associate Investigator · AUD $435,609]{.record-where}
 :::
 
 ::::
 
 :::: {.record}
-[2021–2023]{.record-when}
+[2020–2023]{.record-when}
 
 ::: {.record-what}
 **Leading Virtual Learning Teacher Course**
-[Department of Education (Victoria) · Monash University]{.record-where}
+[Department of Education (Victoria) · Chief Investigator · AUD $450,391]{.record-where}
 :::
 
 ::::
+
+Earlier work as a graduate researcher in the Epistemic Analytics Lab at
+UW–Madison (PI: David Williamson Shaffer) was supported by the National Science
+Foundation and the Army Research Laboratory.

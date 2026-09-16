@@ -370,6 +370,22 @@ main { padding-bottom: 4rem; }
 
 .pub-meta a:hover { border-color: $accent; color: $accent; }
 
+.status {
+  font-size: .73rem;
+  border: 1px solid $accent;
+  color: $accent;
+  padding: .13rem .5rem;
+  border-radius: 2px;
+  font-weight: 500;
+  letter-spacing: .01em;
+}
+
+.pub-legend {
+  font-size: .8rem;
+  color: $muted;
+  margin: -.6rem 0 1.4rem 0;
+}
+
 .award {
   font-size: .73rem;
   background: rgba(143, 45, 45, .08);
