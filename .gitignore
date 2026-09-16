@@ -6,3 +6,8 @@ _freeze/
 .Rhistory
 
 **/*.quarto_ipynb
+
+# local preview scaffolding (not part of the site)
+/_preview/
+/_fragment/
+_quarto-preview.yml
