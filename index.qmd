@@ -35,10 +35,11 @@ and with tools can still license a defensible claim about an individual.
 ::::
 
 :::: {.hero-photo}
-<!-- When you have a headshot, replace this whole block with: ![](assets/photo.jpg) -->
-::: {.photo-placeholder}
-Add `assets/photo.jpg`<br>(roughly 4:5, 600px wide)
-:::
+<img src="assets/photo.jpg"
+     srcset="assets/photo.jpg 640w, assets/photo@2x.jpg 1280w"
+     sizes="200px"
+     alt="Zachari Swiecki"
+     width="640" height="640">
 ::::
 :::::
 

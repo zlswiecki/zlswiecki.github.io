@@ -135,9 +135,11 @@ main { padding-bottom: 4rem; }
 
 .hero-photo img {
   width: 100%;
+  height: auto;
   border-radius: 3px;
   display: block;
-  filter: grayscale(12%);
+  border: 1px solid $rule;
+  filter: grayscale(10%);
 }
 
 .photo-placeholder {
@@ -430,9 +432,10 @@ main { padding-bottom: 4rem; }
 @media (max-width: 700px) {
   .hero {
     grid-template-columns: 1fr;
-    gap: 1.4rem;
+    gap: 1.2rem;
   }
-  .hero-photo { max-width: 170px; }
+  // Lead with the photo on a phone rather than burying it under the text.
+  .hero-photo { order: -1; max-width: 132px; }
   .hero-name { font-size: 1.95rem; }
   .record { grid-template-columns: 1fr; gap: .15rem; }
   .chain-step { min-width: 100%; }

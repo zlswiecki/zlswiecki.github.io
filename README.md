@@ -5,15 +5,14 @@ GitHub Pages.
 
 ---
 
-## Before you publish — three things
+## Before you publish
 
-1. **Add a headshot** at `assets/photo.jpg` (roughly 4:5, ~600px wide), then in
-   `index.qmd` replace the `.photo-placeholder` block with `![](assets/photo.jpg)`.
-2. **Add your CV PDF** at `assets/Swiecki_CV.pdf`. The CV page links to it.
-   (Export your final `Swiecki_CV_*.docx` to PDF — and check it doesn't include
-   your referees' phone numbers, which the current docx does. They are
-   deliberately not on the website.)
-3. **Check the flagged items** in `NOTES.md`.
+Both placeholders are now filled: the headshot is at `assets/photo.jpg` (with a
+2x version at `assets/photo@2x.jpg`) and the CV is at `assets/Swiecki_CV.pdf`.
+To swap either one, overwrite the file — the filenames are fixed, so no edit to
+the pages is needed.
+
+The remaining items to look over are in `NOTES.md`.
 
 ## Running it locally
 
