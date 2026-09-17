@@ -28,8 +28,8 @@ RStudio terminal, and `.qmd` files get a Render button.
 
 | File | What it is |
 |---|---|
-| `index.qmd` | Home page — positioning statement, the inference chain, current work |
-| `research.qmd` | The research program, one section per link in the chain, plus funded projects |
+| `index.qmd` | Home page — lede, what you work on, the three cards, background |
+| `research.qmd` | Capture, code, model, test — plus the funded-projects list |
 | `publications.qmd` | Page shell — search box, filter buttons, the filtering script |
 | `publications.yml` | **The publication list itself.** This is the only file you edit to add a paper |
 | `_pubs.ejs` | Template that turns each YAML entry into HTML |
@@ -60,24 +60,26 @@ automatically.
 
 **One-time setup:**
 
-1. Create a public repo — `zachariswiecki.github.io` is the tidiest name.
-2. Push this folder to it:
+1. Create a public repo — `zlswiecki.github.io` is the name to use — it must match your username.
+2. Point Terminal at this folder (`cd ` then drag the folder in from Finder),
+   and push. This folder is already a git repository with its history, so there
+   is nothing to initialise:
 
    ```bash
-   git init
-   git add .
-   git commit -m "Initial site"
-   git branch -M main
-   git remote add origin git@github.com:<your-username>/zachariswiecki.github.io.git
+   git remote add origin git@github.com:zlswiecki/zlswiecki.github.io.git
    git push -u origin main
    ```
+
+   If the push asks for a password, SSH keys aren't set up on this Mac. Either
+   set one up, or use GitHub Desktop for this step instead — GitHub stopped
+   accepting account passwords over HTTPS.
 
 3. In the repo: **Settings → Pages → Build and deployment → Source: GitHub
    Actions**.
 
 That's it. `.github/workflows/publish.yml` renders and deploys on every push to
 `main`. The first run takes a couple of minutes; after that the site is live at
-`https://<your-username>.github.io`.
+`https://zlswiecki.github.io`.
 
 ## Pointing the domain
 
@@ -118,7 +120,7 @@ point at.
    | A | `@` | `185.199.109.153` |
    | A | `@` | `185.199.110.153` |
    | A | `@` | `185.199.111.153` |
-   | CNAME | `www` | `<your-username>.github.io` |
+   | CNAME | `www` | `zlswiecki.github.io` |
 
    WordPress.com may ask you to disconnect the domain from the WordPress site
    first, or offer a "point to another service" option. Either is fine.
