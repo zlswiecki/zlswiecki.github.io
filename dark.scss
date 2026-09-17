@@ -29,4 +29,9 @@ $navbar-hl: $accent;
 
 .award { background: rgba(217, 138, 138, .12); }
 
-.hero-photo img { filter: grayscale(12%) brightness(.92); }
+// The portrait was shot on a near-white ground, so on a dark page it reads as a
+// glowing block. Dim it and let the border do the framing.
+.hero-photo img {
+  filter: grayscale(12%) brightness(.84) contrast(1.03);
+  border-color: #33363c;
+}
