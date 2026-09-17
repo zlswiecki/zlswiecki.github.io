@@ -4,15 +4,13 @@ pagetitle: "Teaching — Zachari Swiecki"
 description-meta: "Teaching and doctoral supervision in research methods, statistical modelling, and learning analytics at Monash University."
 ---
 
-Apprenticeship works because the work is visible. Methodological judgment is not.
-Most of what makes a good analytic decision — why this coding scheme, why this
-window, why this model and not that one — happens where students cannot see it,
-and so my teaching is largely about externalising it: working through real
-decisions in front of students, on real data, including the ones I get wrong.
-
-The same principle generates how I assess. You cannot coach reasoning you cannot
-observe. So rather than asking only for the product, I ask for the evidence that
-teaching needed anyway — the process that produced it.
+Most of what makes someone good at research is invisible. The reasoning behind
+a choice of method, the moment you notice your data isn't going to support the
+claim you wanted — students may not see any of it unless you make a point of
+showing them. My teaching is largely an attempt to work in the open — real
+decisions, real data, including the ones I get wrong. That's also why I assess
+the way I do. You can't coach reasoning you can't see, so I ask for the process
+as well as the product.
 
 ## Teaching with and about AI
 

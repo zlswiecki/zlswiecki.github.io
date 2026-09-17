@@ -245,6 +245,19 @@ main { padding-bottom: 4rem; }
   margin-bottom: .25rem;
 }
 
+.chain-step .t a {
+  color: $accent;
+  text-decoration: none;
+}
+
+.chain-step:hover .t a { text-decoration: underline; }
+
+.chain-step {
+  transition: border-color .12s ease;
+}
+
+.chain-step:hover { border-color: $accent; }
+
 .chain-step .d {
   display: block;
   font-size: .78rem;

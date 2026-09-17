@@ -9,7 +9,7 @@ project:
 
 website:
   title: "Zachari Swiecki"
-  description: "Learning scientist working on the measurement of learning in human–AI activity."
+  description: "Learning analytics researcher at Monash University. I study how people work with tools — building software to capture activity, methods to make sense of it, and models to find structure in it."
   site-url: https://zachariswiecki.com
   favicon: assets/favicon.png
   open-graph: true
@@ -50,6 +50,10 @@ format:
     anchor-sections: false
     smooth-scroll: true
     link-external-newwindow: true
+    # Without this, Quarto only counts zachariswiecki.com as "internal", so
+    # every in-site link opens a new tab while the site is on its github.io
+    # address or a local preview.
+    link-external-filter: '^(?:http:|https:)\/\/(?:zachariswiecki\.com|[^\/]*\.github\.io|localhost)'
     grid:
       body-width: 860px
       sidebar-width: 200px
