@@ -109,9 +109,3 @@ supervision
 })();
 </script>
 ```
-
-::: {.panel}
-The doctoral dissertation, *Modeling interdependence in collaborative
-problem-solving* (University of Wisconsin–Madison, 2020), is listed under 2020.
-Invited talks, workshops and poster presentations are in the [CV](cv.qmd).
-:::

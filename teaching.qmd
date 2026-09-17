@@ -12,20 +12,6 @@ decisions, real data, including the ones I get wrong. That's also why I assess
 the way I do. You can't coach reasoning you can't see, so I ask for the process
 as well as the product.
 
-## Teaching with and about AI
-
-In my honours research-methods unit, students meet the AI tools that now mediate
-the research process early — ChatGPT, Claude, Scopus AI, NotebookLM, Perplexity.
-We model appropriate use in class and then analyse the tools critically, as
-instruments with particular affordances and constraints.
-
-Students may use GenAI on assignments provided they **declare, describe and
-reflect** on that use, and assessed products are supplemented with in-class
-demonstrations of ownership — pitches, discussions, presentations. Student
-frustration at documenting their AI use, and my own frustration reading loosely
-structured records of it, was part of what prompted the *Trace* browser
-extension.
-
 ## Courses at Monash
 
 :::: {.record}
@@ -110,9 +96,8 @@ extension.
 
 ::: {.panel}
 At Monash a *unit* is a single course. The **Chief Examiner** is responsible for
-its content, assessment and delivery — comparable to a US course director or
-instructor of record — while **Lecturers** deliver its lectures and workshops.
-Student numbers are enrolments per offering.
+its content, assessment and delivery, roughly a US course director; **Lecturers**
+deliver the lectures and workshops. Student numbers are enrolments per offering.
 :::
 
 ## Courses at UW–Madison
@@ -218,18 +203,12 @@ are supervised by a committee of a **main supervisor**, who directs the project 
 the equivalent of a US advisor — and associate supervisors.
 :::
 
-How that works in practice is deliberately layered: weekly one-on-one meetings
-with main supervisees, weekly project-team meetings, and monthly lab meetings
-that mix new and foundational topics, works in progress, and time that is simply
-social. Students own their projects and mentor more junior students — which is
-how the practice gets passed on rather than merely described.
-
 ## Methods workshops
 
-For the last seven years I have run methods workshops for doctoral and
-early-career researchers, most regularly **Advanced ENA and rENA** at the
-International Conference on Quantitative Ethnography, every year from ICQE19
-through ICQE26. Others include:
+I run methods workshops for doctoral and early-career researchers, most
+regularly **Advanced ENA and rENA**, which has been on the programme at every
+Quantitative Ethnography conference since the first one in 2019. Others
+include:
 
 - *A workshop on writing in quantitative ethnography* — ICQE26, Hiroshima (with
   D. W. Shaffer and A. R. Ruis)
