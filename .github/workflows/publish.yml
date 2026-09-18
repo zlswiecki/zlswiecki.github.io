@@ -27,6 +27,9 @@ jobs:
       - name: Render site
         run: quarto render
 
+      - name: Set custom domain
+        run: echo 'zachariswiecki.com' > _site/CNAME
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
