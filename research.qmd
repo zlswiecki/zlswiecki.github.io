@@ -31,7 +31,7 @@ A record isn't useful until something decides which parts of it matter and what
 they mean, and that decision is where the theory lives. I build coding schemes
 that work from both ends — the categories a literature hands you and the
 categories the data insists on. Lately that work has moved to language models as
-coders. Much of my current work is on validating these classifiers rather than simply checking their agreement: how a codebook gets turned into a prompt, how the two are refined together, and how stable a given classifier really is.
+coders. My current work is investigating how a codebook gets turned into a prompt, how the two are refined together, and how stable a given classifier really is.
 
 ## Modelling interaction
 
